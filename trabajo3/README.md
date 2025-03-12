@@ -9,7 +9,6 @@ pandas
 matplotlib
 seaborn
 
-
 [!Tip] Después se debe ejecutar el siguiente comando en el terminal
 
 conda create –-nombre entorno --requirements.txt
