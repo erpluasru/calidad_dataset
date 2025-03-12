@@ -1,9 +1,9 @@
  ¿Cómo crear entornos conda a partir de un .txt o un .yml?
-
-[!Note] Para archivo .txt 
+ 
+[!Note]
+Para archivo .txt 
 Para crear el entorno Conda, primero se debe de asegurar que el archivo tenga los paquetes necesarios. En este caso son:
-
-python=3.12.7
+git
 numpy
 pandas
 matplotlib
@@ -26,8 +26,10 @@ pandas
 matplotlib
 seaborn
 
-[!Tip] Después se debe ejecutar el siguiente comando en el terminal
+[!Tip] 
+Después se debe ejecutar el siguiente comando en el terminal
 
 conda env create -f entorno.yml
 
 Tras ejecutar el comando, se creará un entorno Conda con la configuración especificada en el archivo .yml, en este caso “entorno.yml.”
+
